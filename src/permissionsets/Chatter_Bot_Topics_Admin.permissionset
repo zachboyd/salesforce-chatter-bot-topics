@@ -49,4 +49,8 @@
         <object>Chatter_Bot_Topic__c</object>
         <viewAllRecords>false</viewAllRecords>
     </objectPermissions>
+    <tabSettings>
+        <tab>Chatter_Bot_Topic__c</tab>
+        <visibility>Visible</visibility>
+    </tabSettings>
 </PermissionSet>

@@ -22,5 +22,9 @@
         <members>Chatter_Bot_Topics_Admin</members>
         <name>PermissionSet</name>
     </types>
+    <types>
+        <members>Chatter_Bot_Topic__c</members>
+        <name>CustomTab</name>
+    </types>
     <version>37.0</version>
 </Package>
