@@ -21,10 +21,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Follow</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>List</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -47,6 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>A record is created via trigger any time the topic that the parent Chatter Bot Topic is monitoring is assigned to a Chatter post. This allows you to setup Process Builder to be fired when these records are created so that you can take action on Topic assignments. This is a workaround until if or when Salesforce supports TopicAssignment object in Process Builder.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -70,7 +67,9 @@
     </fields>
     <fields>
         <fullName>Feed_Item_Body__c</fullName>
+        <description>Copy of the original Chatter post content.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Copy of the original Chatter post content. This may be helpful if you&apos;re creating Cases and want to copy the Chatter post into the Description.</inlineHelpText>
         <label>Feed Item Body</label>
         <length>32768</length>
         <trackTrending>false</trackTrending>
@@ -79,9 +78,9 @@
     </fields>
     <fields>
         <fullName>Feed_Item_Id__c</fullName>
-        <description>ID of feed item that this topic is associated to</description>
+        <description>ID of Chatter Feed Item that this topic is associated to.</description>
         <externalId>false</externalId>
-        <inlineHelpText>ID of feed item that this topic is associated to</inlineHelpText>
+        <inlineHelpText>ID of Chatter Feed Item that this topic is associated to.</inlineHelpText>
         <label>Feed Item Id</label>
         <length>255</length>
         <required>false</required>
@@ -91,7 +90,9 @@
     </fields>
     <fields>
         <fullName>Feed_Item_Parent_Id__c</fullName>
+        <description>ID of record that the Chatter post was made to.</description>
         <externalId>false</externalId>
+        <inlineHelpText>ID of record that the Chatter post was made to. This may be an object id like Account ID or Contact ID or it may be a Group ID.</inlineHelpText>
         <label>Feed Item Parent Id</label>
         <length>255</length>
         <required>false</required>
