@@ -22,5 +22,5 @@
         <members>Chatter_Bot_Topics_Admin</members>
         <name>PermissionSet</name>
     </types>
-    <version>37.0</version>
+    <version>38.0</version>
 </Package>
