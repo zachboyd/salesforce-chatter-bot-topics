@@ -65,15 +65,16 @@
     </fields>
     <fields>
         <fullName>Topic_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <description>Name of the Chatter Topic that the ChatterBot will take an action on</description>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <inlineHelpText>Name of the Chatter Topic that the ChatterBot will take an action on</inlineHelpText>
         <label>Topic Name</label>
         <length>255</length>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <label>Chatter Bot Topic</label>
     <listViews>
