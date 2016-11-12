@@ -3,7 +3,7 @@ Salesforce Chatter Bot for Topics
 
 Overview
 ----------------
-Chatter Bot for Topics is a way to easily listen for topic assignments to a Chatter post and take action. An example would be to automatically create a Case when a topic is assigned to a Chatter post. Unfortunately, you cannot just leverage Process Builder to monitor the creation of a TopicAssignment object. This project makes it easy by monitoring the topics that you want and the it will create a custom object that you can leverage within Process Builder.
+Chatter Bot for Topics is a way to easily listen for topic assignments to a Chatter post and take action. An example would be to automatically create a Case when a topic is assigned to a Chatter post. Unfortunately, you cannot just leverage Process Builder to monitor the creation of a TopicAssignment object. This project makes it easy by monitoring the topics that you want and then creating a custom object that you can leverage within Process Builder.
 
 Installation
 ----------------------
