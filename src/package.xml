@@ -1,35 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	<types>
-		<members>ChatterBotTopicAssignmentTrigger</members>
-		<name>ApexTrigger</name>
-	</types>
-	<types>
-		<members>Chatter_Bot_Topics</members>
-		<name>CustomApplication</name>
-	</types>
-	<types>
-		<members>Chatter_Bot_Topic_Assignment__c</members>
-		<members>Chatter_Bot_Topic__c</members>
-		<name>CustomObject</name>
-	</types>
-	<types>
-		<members>Chatter_Bot_Topic__c</members>
-		<name>CustomTab</name>
-	</types>
-	<types>
-		<members>Chatter_Bot_Topic_Assignment__c-Chatter Bot Topic Assigment Layout</members>
-		<members>Chatter_Bot_Topic__c-Chatter Bot Layout</members>
-		<name>Layout</name>
-	</types>
-	<types>
-		<members>Chatter_Bot_Topics_Admin</members>
-		<name>PermissionSet</name>
-	</types>
-	<types>
-		<members>ChatterBotTopicAssignTriggerHandler</members>
-		<members>ChatterBotTopicAssignTriggerHandlerTest</members>
-		<name>ApexClass</name>
-	</types>
-	<version>38.0</version>
+    <types>
+        <members>ChatterBotTopicAssignTriggerHandler</members>
+        <members>ChatterBotTopicAssignTriggerHandlerTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>ChatterBotTopicAssignmentTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>Chatter_Bot_Topics</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Chatter_Bot_Topic_Assignment__c</members>
+        <members>Chatter_Bot_Topic__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Chatter_Bot_Topic__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Chatter_Bot_Topic_Assignment__c-Chatter Bot Topic Assigment Layout</members>
+        <members>Chatter_Bot_Topic__c-Chatter Bot Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Chatter_Bot_Topics_Admin</members>
+        <name>PermissionSet</name>
+    </types>
+    <version>38.0</version>
 </Package>

@@ -43,6 +43,7 @@
     <allowInChatterGroups>false</allowInChatterGroups>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Specify Chatter Topics that you want to be notified when they are assigned to Chatter Feeds so that you can take actions. A common use case is to create Cases when #help topic is assigned to a Chatter post.</description>
     <enableActivities>false</enableActivities>
     <enableBulkApi>true</enableBulkApi>
     <enableFeeds>false</enableFeeds>
@@ -54,22 +55,25 @@
     <fields>
         <fullName>Active__c</fullName>
         <defaultValue>true</defaultValue>
+        <description>Controls whether the TopicAssignment trigger creates Chatter Bot Topic Assignment child records when this topic is assigned to Chatter Feed Items.</description>
         <externalId>false</externalId>
+        <inlineHelpText>Controls whether the TopicAssignment trigger creates Chatter Bot Topic Assignment child records when this topic is assigned to Chatter Feed Items.</inlineHelpText>
         <label>Active</label>
         <trackTrending>false</trackTrending>
         <type>Checkbox</type>
     </fields>
     <fields>
         <fullName>Topic_Name__c</fullName>
+        <caseSensitive>false</caseSensitive>
         <description>Name of the Chatter Topic that the ChatterBot will take an action on</description>
-        <externalId>false</externalId>
+        <externalId>true</externalId>
         <inlineHelpText>Name of the Chatter Topic that the ChatterBot will take an action on</inlineHelpText>
         <label>Topic Name</label>
         <length>255</length>
         <required>true</required>
         <trackTrending>false</trackTrending>
         <type>Text</type>
-        <unique>false</unique>
+        <unique>true</unique>
     </fields>
     <label>Chatter Bot Topic</label>
     <listViews>
